@@ -70,6 +70,7 @@ Typical Structure:
   ├── utils
   ├── data
   └── config
+  
 ⚙️ 2. Configuration Management
 Use .properties, .yml, or .json files to externalize configs.
 Store:
@@ -81,7 +82,6 @@ Environment variables
 
 🔧 3. Build Management
 Use Maven or Gradle to handle dependencies and build lifecycle.
-
 ✅ Example: pom.xml (Maven)
 Include dependencies like:
 
@@ -90,6 +90,7 @@ TestNG / JUnit
 Rest Assured / Karate
 Logging libs
 Allure for reporting
+
 🧪 4. Test Design
 Choose a test strategy: TestNG, JUnit, or Cucumber (BDD).
 Organize tests into:
@@ -105,9 +106,10 @@ Excel/CSV/JSON
 .properties files
 Database/mock servers
 Separate test logic from test data (Data-driven testing).
+
+
 📦 6. Utilities / Helpers
 Create reusable methods for:
-
 Waits
 Common UI actions (click, send keys)
 API calls
@@ -117,7 +119,6 @@ Date/time generation
 
 📜 7. Logging & Reporting
 Integrate:
-
 Log4j or SLF4J for logs
 ExtentReports / Allure / ReportNG for HTML reports
 ✅ Helps in debugging and stakeholder visibility.
@@ -133,11 +134,15 @@ Nightly builds
 🌐 9. Cross-Browser / Environment Support
 Design tests to be environment-agnostic.
 Run tests on Chrome, Firefox, Edge (for UI), or multiple APIs/mocks (for APIs).
+
+
 🔐 10. Test Environment Readiness
 Ensure:
 Environment URLs are stable
 Mock services or test databases are available
 Secrets/API keys are secured
+
+
 🧪 Bonus: Code Quality & Best Practices
 Follow SOLID principles
 Use meaningful assertions
